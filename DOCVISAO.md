@@ -114,7 +114,7 @@ O sistema atende, de forma integrada, os cinco pilares definidos no escopo: **In
 
 ---
 
-## 5. Requisitos de Alto Nvel
+## 5. Requisitos de Alto Nível
 
 ### 5.1 Requisitos Funcionais
 
