@@ -7,10 +7,35 @@
 ## 1. Introdução
 
 ### 1.1 Propósito
-
+Este documento define o objetivo e os requisitos centrais do site do ***Hackathon***. Ele serve para alinhar a equipe de desenvolvimento com os organizadores, garantindo que o site atenda às necessidades de todos os envolvidos no evento.
 ### 1.2 Escopo
+O projeto consiste em um site responsivo que centraliza todas as etapas do Hackathon.
+
+**O que o site FAZ:**
+
+-**Informar**: Exibe cronograma, regras, jurados, mentores, prêmios e perguntas frequentes.
+
+-**Cadastrar**: Permite inscrição de participantes, mentores e jurados.
+
+-**Conectar**: Oferece área para criação e gestão de equipes.
+
+-**Entregar**: Permite o envio dos projetos finais pelas equipes.
+
+-**Avaliar**: Disponibiliza painel para os jurados darem notas aos projetos.
 
 ### 1.3 Definições, Acrônimos e Abreviações
+
+-**Hackathon**: Maratona de tecnologia para criar soluções em curto prazo.
+
+-**MVP (Minimum Viable Product)**: Protótipo simples e funcional do projeto entregue no evento.
+
+-**Pitch**: Apresentação rápida do projeto feita para os jurados.
+
+-**FAQ**: Lista de perguntas e respostas frequentes.
+
+-**UI/UX**: Design e usabilidade da interface da plataforma.
+
+-**LGPD**: Lei de privacidade para proteção dos dados dos inscritos.
 
 ---
 
