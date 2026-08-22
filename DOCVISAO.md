@@ -1,6 +1,4 @@
-# PFE-2026.2-GR2-EX-DOCVISAO-SEXTA
-
-1. Introdução
+#### PFE-2026.2-GR2-EX-DOCVISAO-SEXTA
 
 # Documento de Visão para Hackathon Universitário
 
@@ -52,8 +50,20 @@ O projeto consiste em um site responsivo que centraliza todas as etapas do Hacka
 ## 3. Descrição dos Envolvidos e Usuários
 
 ### 3.1 Resumo dos Envolvidos
-
+Os principais envolvidos no Evento do Hackathon são as pessoas e organizações que participam da execução, apoio, avaliação e planejamento.
+- **Organizadores:** São os responsáveis pelo gerenciamento, planejamento e execução do Evento, incluindo o processo de inscrição, cronograma, comunicação interna e desafios.
+- **Universidade:** É a instituição responsável pela realização do Evento, fornecendo sua estrutura e suporte.
+- **Professores:** Podem atuar na orientação de equipes, na avaliação dos projetos ou agir como mentores.
+- **Mentores:** Profissionais externos ou internos da Universidade responsáveis por auxiliar as equipes durante o desenvolvimento dos projetos.
+- **Jurados:** São os responsáveis por avaliar os projetos apresentados pelas equipes, seguindo os critérios definidos pela organização.
+- **Patrocinadores:** Têm a possibilidade de contribuir com recursos, premiações, ferramentas especializadas ou mentores para a realização do Evento.
+ 
 ### 3.2 Resumo dos Usuários
+Os usuários da plataforma são pessoas que participam diretamente do Hackathon e utilizam esse sistema para acompanhar ou gerenciar as atividades do Evento.
+- **Participantes:** Estudantes universitários que participam do Hackathon. Utilizam a plataforma para realizar a inscrição, criar ou entrar em equipes, consultar os desafios, acompanhar o cronograma, acessar informações sobre os mentores, enviar os projetos e consultar os resultados.
+- **Mentores:** São profissionais ou professores que auxiliam as equipes durante o desenvolvimento dos projetos. Utilizam a plataforma para consultar os desafios, acompanhar as equipes e acessar informações sobre o cronograma e as atividades de mentoria.
+- **Jurados:** Profissionais, professores ou especialistas responsáveis pela avaliação dos projetos. Utilizam a plataforma para consultar os projetos enviados, acessar os critérios de avaliação, registrar notas e acompanhar os resultados.
+- **Organizadores:** São os responsáveis pelo gerenciamento do Hackathon. Utilizam a plataforma para gerenciar inscrições, participantes, equipes, desafios, cronograma, mentores, jurados, avisos e resultados do evento.
 
 ---
 
@@ -86,4 +96,3 @@ O projeto consiste em um site responsivo que centraliza todas as etapas do Hacka
 ### 7.1 Riscos
 
 ### 7.2 Dependências
->>>>>>> 723d8a0ad530d9ff28f963e233729591d52597a4
