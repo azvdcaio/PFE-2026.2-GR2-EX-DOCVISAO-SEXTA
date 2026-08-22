@@ -14,29 +14,29 @@ O projeto consiste em um site responsivo que centraliza todas as etapas do Hacka
 
 **O que o site FAZ:**
 
--**Informar**: Exibe cronograma, regras, jurados, mentores, prêmios e perguntas frequentes.
+- **Informar**: Exibe cronograma, regras, jurados, mentores, prêmios e perguntas frequentes.
 
--**Cadastrar**: Permite inscrição de participantes, mentores e jurados.
+- **Cadastrar**: Permite inscrição de participantes, mentores e jurados.
 
--**Conectar**: Oferece área para criação e gestão de equipes.
+- **Conectar**: Oferece área para criação e gestão de equipes.
 
--**Entregar**: Permite o envio dos projetos finais pelas equipes.
+- **Entregar**: Permite o envio dos projetos finais pelas equipes.
 
--**Avaliar**: Disponibiliza painel para os jurados darem notas aos projetos.
+- **Avaliar**: Disponibiliza painel para os jurados darem notas aos projetos.
 
 ### 1.3 Definições, Acrônimos e Abreviações
 
--**Hackathon**: Maratona de tecnologia para criar soluções em curto prazo.
+- **Hackathon**: Maratona de tecnologia para criar soluções em curto prazo.
 
--**MVP (Minimum Viable Product)**: Protótipo simples e funcional do projeto entregue no evento.
+- **MVP (Minimum Viable Product)**: Protótipo simples e funcional do projeto entregue no evento.
 
--**Pitch**: Apresentação rápida do projeto feita para os jurados.
+- **Pitch**: Apresentação rápida do projeto feita para os jurados.
 
--**FAQ**: Lista de perguntas e respostas frequentes.
+- **FAQ**: Lista de perguntas e respostas frequentes.
 
--**UI/UX**: Design e usabilidade da interface da plataforma.
+- **UI/UX**: Design e usabilidade da interface da plataforma.
 
--**LGPD**: Lei de privacidade para proteção dos dados dos inscritos.
+- **LGPD**: Lei de privacidade para proteção dos dados dos inscritos.
 
 ---
 
@@ -84,7 +84,7 @@ Os usuários da plataforma são pessoas que participam diretamente do Hackathon 
 
 O site do Hackathon é a plataforma central que dá suporte a todas as etapas do evento, desde a divulgação até a divulgação dos resultados. Ele funciona como ponto único de verdade: cronograma, inscrições, formação de equipes, submissão de projetos e avaliação dos jurados ficam concentrados em um mesmo sistema, substituindo o uso disperso de planilhas, formulários avulsos e grupos de mensagens.
 
-O sistema atende, de forma integrada, os cinco pilares definidos no escopo: **Informar, Cadastrar, Conectar, Entregar e Avaliar**, cobrindo participantes, mentores, jurados e organizadores em uma única jornada.
+O sistema atende, de forma integrada, os cinco pilares definidos no escopo: **Informar, Cadastrar, Conectar, Entregar** e **Avaliar**, cobrindo participantes, mentores, jurados e organizadores em uma única jornada.
 
 ### 4.1 Recursos Principais
 
@@ -118,7 +118,68 @@ O sistema atende, de forma integrada, os cinco pilares definidos no escopo: **In
 
 ### 5.1 Requisitos Funcionais
 
-### 5.2 Requisitos Não Funcionais
+Organizados pelas cinco frentes de escopo (Informar, Cadastrar, Conectar, Entregar, Avaliar):
+
+#### Informar:
+
+- O sistema deve exibir o cronograma completo do evento.
+
+- O sistema deve exibir as regras do Hackathon.
+
+- O sistema deve exibir a lista de jurados e mentores, com breve descrição de cada um.
+
+- O sistema deve exibir os prêmios oferecidos.
+
+- O sistema deve disponibilizar uma seção de FAQ.
+
+#### Cadastrar:
+
+- O sistema deve permitir a inscrição de participantes, coletando dados pessoais e acadêmicos necessários.
+
+- O sistema deve permitir o cadastro de mentores e jurados pela organização.
+
+- O sistema deve validar e-mail institucional no momento da inscrição de participantes.
+
+- O sistema deve tratar os dados coletados em conformidade com a LGPD.
+
+#### Conectar:
+
+- O sistema deve permitir que um participante crie uma equipe.
+
+- O sistema deve permitir que um participante entre em uma equipe já existente.
+
+- O sistema deve exibir aos participantes a lista de equipes com vagas disponíveis.
+
+#### Entregar:
+
+- O sistema deve permitir que uma equipe envie seu projeto (MVP) dentro do prazo estipulado.
+
+- O sistema deve permitir o envio de link de repositório, vídeo de pitch e descrição textual do projeto.
+
+- O sistema deve bloquear novos envios ou edições após o encerramento do prazo de submissão
+
+#### Avaliar:
+
+- O sistema deve permitir que jurados visualizem os projetos submetidos
+- O sistema deve permitir que jurados atribuam notas conforme os critérios definidos pela organização.
+
+- O sistema deve consolidar as notas e gerar um ranking dos projetos.
+
+- O sistema deve permitir que organizadores acompanhem, em tempo real, inscrições, equipes formadas, submissões e avaliações.
+
+### 5.2 Requisitos Não Funcionais:
+
+- **Usabilidade:** A interface deve ser acessível a usuários com diferentes níveis de familiaridade tecnológica (participantes, mentores, jurados e organizadores).
+
+- **Responsividade:** O site deve funcionar corretamente em dispositivos móveis e desktop, dado que o acesso durante o evento ocorrerá em ambos.
+
+- **Segurança e privacidade:** Os dados pessoais coletados devem ser armazenados de forma segura, em conformidade com a LGPD.
+
+- **Disponibilidade:** O sistema deve permanecer disponível e estável durante os momentos críticos do evento, especialmente no horário limite de submissão dos projetos.
+
+- **Desempenho:** O sistema deve responder adequadamente em picos de acesso simultâneo, como na abertura das inscrições.
+
+- **Manutenibilidade:** A estrutura do sistema deve permitir que a organização reutilize a plataforma em edições futuras do Hackathon com o mínimo de retrabalho.
 
 ---
 
@@ -126,7 +187,7 @@ O sistema atende, de forma integrada, os cinco pilares definidos no escopo: **In
 
 ### 6.1 Restrições
 
-- O desenvolvimento da plataforma web do hackthon deve ser concluído dentro do prazo estipulado pela organização do evento.
+- O desenvolvimento da plataforma web do Hackthon deve ser concluído dentro do prazo estipulado pela organização do evento.
 - O sistema deve ser acessível via navegadores web atualizados, utilizando tecnologias padronizadas (HTML, CSS, JavaScript).
 - O gerenciamento do código e controle de versionamento do projeto devem ser realizados obrigatoriamente utilizando a plataforma GitHub.
 - A plataforma deve limitar o escopo de inscrições estreitamente aos perfis validados (estudantes universitários, mentores, jurados e organizadores).
