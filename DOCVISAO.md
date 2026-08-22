@@ -40,10 +40,13 @@ O projeto consiste em um site responsivo que centraliza todas as etapas do Hacka
 ## 2. Posicionamento
 
 ### 2.1 Oportunidade de Negócio
+A organização de hackathons sofre com processos descentralizados, gerando desorganização operacional e, por consequencia, dificuldades na gestão de equipes e perda de engajamento dos alunos. Há, portanto, a oportunidade de criar um portal centralizado que automatize submissões e profissionalize a gestão do evento.
 
 ### 2.2 Descrição do Problema
+O problema de descentralização e falta de automação na gestão de inscrições e submissões do Hackathon afeta estudantes competidores, comissão organizadora e jurados. O impacto disso é perda de tempo, confusão com prazos, inscrições manuais propensas a falhas e dificuldade na avaliação dos projetos. Portanto, uma solução bem-sucedida seria um portal web unificado para gerenciar todo o ciclo de vida do evento, desde a inscrição até a avaliação final.
 
 ### 2.3 Declaração de Posicionamento
+Para os estudantes participantes de hackathons que precisam de um ambiente confiável para se inscrever, formar equipes e submeter projetos, o portal do hackathon é uma plataforma web centralizada que automatiza incrições, divulgação de regras e envio de entregas. Diferentemente de formulários genéricos e planilhas manuais o nosso produto oferece uma experiência integrada à identidade da instituição, garantindo automação, transparência e eficiência para organizadores e competidores.
 
 ---
 
