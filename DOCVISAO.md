@@ -5,11 +5,8 @@
 ## 1. Introdução
 
 ### 1.1 Propósito
-
-Este documento define o objetivo e os requisitos centrais do site do **_Hackathon_**. Ele serve para alinhar a equipe de desenvolvimento com os organizadores, garantindo que o site atenda às necessidades de todos os envolvidos no evento.
-
+Este documento define o objetivo e os requisitos centrais do site do ***Hackathon***. Ele serve para alinhar a equipe de desenvolvimento com os organizadores, garantindo que o site atenda às necessidades de todos os envolvidos no evento.
 ### 1.2 Escopo
-
 O projeto consiste em um site responsivo que centraliza todas as etapas do Hackathon.
 
 **O que o site FAZ:**
@@ -56,20 +53,16 @@ Para os estudantes participantes de hackathons que precisam de um ambiente confi
 ## 3. Descrição dos Envolvidos e Usuários
 
 ### 3.1 Resumo dos Envolvidos
-
 Os principais envolvidos no Evento do Hackathon são as pessoas e organizações que participam da execução, apoio, avaliação e planejamento.
-
 - **Organizadores:** São os responsáveis pelo gerenciamento, planejamento e execução do Evento, incluindo o processo de inscrição, cronograma, comunicação interna e desafios.
 - **Universidade:** É a instituição responsável pela realização do Evento, fornecendo sua estrutura e suporte.
 - **Professores:** Podem atuar na orientação de equipes, na avaliação dos projetos ou agir como mentores.
 - **Mentores:** Profissionais externos ou internos da Universidade responsáveis por auxiliar as equipes durante o desenvolvimento dos projetos.
 - **Jurados:** São os responsáveis por avaliar os projetos apresentados pelas equipes, seguindo os critérios definidos pela organização.
 - **Patrocinadores:** Têm a possibilidade de contribuir com recursos, premiações, ferramentas especializadas ou mentores para a realização do Evento.
-
+ 
 ### 3.2 Resumo dos Usuários
-
 Os usuários da plataforma são pessoas que participam diretamente do Hackathon e utilizam esse sistema para acompanhar ou gerenciar as atividades do Evento.
-
 - **Participantes:** Estudantes universitários que participam do Hackathon. Utilizam a plataforma para realizar a inscrição, criar ou entrar em equipes, consultar os desafios, acompanhar o cronograma, acessar informações sobre os mentores, enviar os projetos e consultar os resultados.
 - **Mentores:** São profissionais ou professores que auxiliam as equipes durante o desenvolvimento dos projetos. Utilizam a plataforma para consultar os desafios, acompanhar as equipes e acessar informações sobre o cronograma e as atividades de mentoria.
 - **Jurados:** Profissionais, professores ou especialistas responsáveis pela avaliação dos projetos. Utilizam a plataforma para consultar os projetos enviados, acessar os critérios de avaliação, registrar notas e acompanhar os resultados.
@@ -79,35 +72,9 @@ Os usuários da plataforma são pessoas que participam diretamente do Hackathon 
 
 ## 4. Visão Geral do Produto
 
-O site do Hackathon é a plataforma central que dá suporte a todas as etapas do evento, desde a divulgação até a divulgação dos resultados. Ele funciona como ponto único de verdade: cronograma, inscrições, formação de equipes, submissão de projetos e avaliação dos jurados ficam concentrados em um mesmo sistema, substituindo o uso disperso de planilhas, formulários avulsos e grupos de mensagens.
-
-O sistema atende, de forma integrada, os cinco pilares definidos no escopo: **Informar, Cadastrar, Conectar, Entregar e Avaliar**, cobrindo participantes, mentores, jurados e organizadores em uma única jornada.
-
 ### 4.1 Recursos Principais
 
-- **Página de informações do evento:** Exibição de cronograma, regras, jurados, mentores, prêmios e FAQ.
-
-- **Inscrição de usuários:** Cadastro de participantes, mentores e jurados, com validação de e-mail institucional.
-
-- **Gestão de equipes:** Criação de equipes, entrada de novos membros e visualização de vagas disponíveis.
-
-- **Submissão de projetos:** Envio do MVP (link de repositório, vídeo de pitch e descrição da solução) dentro do prazo definido.
-
-- **Painel de avaliação:** Acesso dos jurados às submissões e registro de notas conforme critérios estabelecidos.
-
-- **Painel do organizador:** Acompanhamento de inscrições, equipes formadas, submissões e avaliações em tempo real.
-
-- **Divulgação de resultados:** Exibição do ranking final e comunicação dos vencedores.
-
 ### 4.2 Restrições
-
-- O sistema deve estar em pleno funcionamento durante todo o período do evento, sem margem para indisponibilidade nos horários críticos.
-
-- O tratamento de dados pessoais coletados na inscrição deve estar em conformidade com a LGPD.
-
-- O sistema não substitui sistemas acadêmicos institucionais (matrícula, portal do aluno) e não realiza pagamento ou premiação financeira.
-
-- O prazo de entrega do sistema é limitado pela data fixa do evento, não sendo negociável.
 
 ---
 
@@ -122,13 +89,27 @@ O sistema atende, de forma integrada, os cinco pilares definidos no escopo: **In
 ## 6. Restrições e Premissas
 
 ### 6.1 Restrições
+* O desenvolvimento da plataforma web do hackthon deve ser concluído dentro do prazo estipulado pela organização do evento.
+* O sistema deve ser acessível via navegadores web atualizados, utilizando tecnologias padronizadas (HTML, CSS, JavaScript).
+* O gerenciamento do código e controle de versionamento do projeto devem ser realizados obrigatoriamente utilizando a plataforma GitHub.
+* A plataforma deve limitar o escopo de inscrições estreitamente aos perfis validados (estudantes universitários, mentores, jurados e organizadores).
 
 ### 6.2 Premissas
+* Assume-se que os participantes, mentores e jurados possuirão acesso a computadores ou dispositivos móveis com acessoa a conexão estável à internet durante o evento.
+* Considera-se que haverá disponibilidade prévia de professores e profissinais qualificados para atuarem como mentores e avaliadores.
+* Pressupõe-se que a instituição responsável fornecerá o suporte necessário para divulgação oficial e validaçaão das atividades do hackathon.
+* Assume-se que os mebros da equipe de desenvolvimento possuem disponibilidade de horário compativel para alinhamento e entrega das tarefas e prazos do projeto.
 
 ---
 
 ## 7. Riscos e Dependências
 
 ### 7.1 Riscos
-
+* ***Indisponibilidade de membros da equipe:*** A ausência imprevista de algum integrante do grupo pode gerar sobrecaraga aos demais e comprometer prazos entrega.
+* ***Problemas técinicos no versionamento:*** Dificuldades operacionais como uso do GitHub ou conflitos na integração de código podem gerar atrasos na documentação e no sistema.
+* ***Baixa adesão de participantes:*** O hackathon pode enfrentar um número reduzido de inscrições caso as estratégias de divulgação digital e presencial não alcancem o público esperado.
+* ***Falha de infraestrutura:*** Instabilidade na rede de internet ou queda das plataformas de hospedagem durante a fase de testes ou apresentação do sistema.
 ### 7.2 Dependências
+* ***Aprovação do escopo:*** O avanço das etapas seguintes depende da validação prévia do Documento de Visão e requisitos pré-definidos pela organização do evento.
+* ***Definição de ferramentas:*** A escolha das tecnologias de front-end e back-end depende do consenso e da capacidade técnica atual dos integrantes do grupo.
+* ***Integração do grupo:*** A conclusão correta das seções do trabalho depende da entrga pontual das partes desenvolvidas individualmente por cada integrante da equipe.
